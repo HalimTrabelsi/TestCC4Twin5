@@ -1,8 +1,0 @@
-
-<form [formGroup]="teamForm" (ngSubmit)="onSubmit()">
-  <input formControlName="name" placeholder="Team Name" [aria-label="name"]>
-  <input formControlName="projectName" placeholder="Project Name"[aria-label="projectName"]>
-  <input formControlName="level" placeholder="Level"[aria-label="level"]>
-  <textarea formControlName="projectDescription" placeholder="Project Description"></textarea>
-  <button [disabled]="teamForm.invalid">Ajouter</button>
-</form>

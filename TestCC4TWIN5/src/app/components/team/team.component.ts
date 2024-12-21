@@ -1,5 +1,4 @@
 import { Component, Input } from '@angular/core';
-import { Team } from 'src/app/models/Team';
 
 @Component({
   selector: 'app-team',
@@ -7,5 +6,5 @@ import { Team } from 'src/app/models/Team';
   styleUrls: ['./team.component.css']
 })
 export class TeamComponent {
-@Input() team!: Team;
+@Input() team: any;
 }

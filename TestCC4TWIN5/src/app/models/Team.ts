@@ -3,4 +3,6 @@ export class Team{
   name! : string;
   projectName!:string ;
   level!:string ;
+  projectDescription?: string;
+  participants?: any[];
 }
