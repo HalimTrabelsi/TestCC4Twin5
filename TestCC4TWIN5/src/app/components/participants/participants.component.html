@@ -1,0 +1,11 @@
+<div *ngIf="team">
+  <h3>Project Description</h3>
+  <p>{{ team.projectDescription }}</p>
+
+  <h3>Participants</h3>
+  <ul>
+    <li *ngFor="let participant of team.participants">
+      {{ participant.fullname }} - {{ participant.email }}
+    </li>
+  </ul>
+</div>
