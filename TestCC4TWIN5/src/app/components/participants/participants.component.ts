@@ -2,7 +2,6 @@ import { Team } from './../../models/Team';
 import { Component , OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
-import { Team } from 'src/app/models/Team';
 
 @Component({
   selector: 'app-participants',
